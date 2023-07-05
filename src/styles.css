@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: rgb(255, 255, 255);
+}
+.form-control {
+    font-family: 'Inter', sans-serif;
+}
+.form-input {
+  font-size: 16px;
+  color: #000;
+  font-weight: 400;
+  border: 2px solid #FF5900 !important;
+  border-radius: 8px;
+  padding: 8px 15px;
+  outline: none;
+  box-shadow: none !important;
+}
+.form-input::placeholder {
+    color: #000;
+}
+.formTitle {
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
+  line-height: 42px;
+  font-weight: 500;
+  color: #222568;
+font-family: 'Nunito', sans-serif;
+font-weight: 800;
+}
+.formsubmitBtn {
+  background: #FF5900 !important;
+  color: #fff !important;
+  border-radius: 25px !important;
+  font-family: 'Inter', sans-serif !important;
+  font-size: 18px !important;
+font-weight: 400 !important;
+padding: 4px 25px !important;
+}
+.formsubmitBtn:hover {
+    background: #000;
+    color: #fff;
+}
+.formOtp {
+  width: 40px;
+  height: 50px;
+  padding: 2px 3px;
+  text-align: center;
+  font-size: 17px;
+}
+.zskLogin input::-webkit-outer-spin-button,
+.zskLogin input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* .zskLogin input[type=number] {
+  -moz-appearance: textfield;
+} */
+.emailText {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  color: #000;
+  line-height: 28px;
+  margin-bottom: 15px;
+}
+.formsubcontent {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 15px;
+}
+.resendotp {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  color: #000;
+  margin-bottom: 25px;
+}
+.resendotp span {
+  font-size: 18px;
+}
+.resendotp a {
+  text-decoration: none;
+  color: #ff5900;
+}
+.emailText i {
+  color: #000;
+}
+.signupFull {
+margin-top: 0 !important;
+margin-bottom: 0 !important;
+}
+
+@media screen and (min-width: 768px) {
+  .zskLogin {
+    background: rgb(255, 255, 255) !important;
+    /* background: url('./assets/images/case-study-paywith-compliance-remote-work.jpg') no-repeat !important; */
+    background-position: center !important;
+    background-color: rgba(0,0,0, 0.7) !important;
+background-blend-mode: overlay !important;
+background-size: cover !important;
+}
+.signupFull {
+  max-width: 400px !important;
+  /* background: url('./assets/images/bg-waves.svg') no-repeat; */
+  background-position: bottom center;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 40px 40px !important;
+  min-height: 500px;
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+justify-content: center;
+margin-top: 0 !important;
+margin-bottom: 0 !important;
+}
+.mainLogo {
+  margin-bottom: 0px !important;
+}
+
+}
+
+@media screen and (max-width: 390px) {
+  .formTitle {
+    font-size: 20px;
+  }
+  .resendotp {
+    font-size: 12px;
+  }
+  .formsubmitBtn {
+    font-size: 16px;
+  }
+  .mainLogo  img {
+    width: 100%;
+  }
+}
